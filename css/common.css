@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,  
+blockquote,th,td {margin:0; padding:0; }  
+table { border-collapse:collapse; border-spacing:0; }  
+fieldset,img { border:0; }  
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }  
+ol,ul { list-style:none; }  
+caption,th { text-align:left; }  
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }  
+abbr,acronym { border:0; }  
+a,input{outline:none;}
+.clear{ clear:both;}
+body{ background:#fff; position:relative; z-index:2;font:normal 14px/32px Arial,"Microsoft YaHei";letter-spacing:1px; overflow-x:hidden}
+
+.header{ height:100px;}
+.header-top{ background:url(../img/top-bg.gif) no-repeat center top #29abe2; height:10px; width:100%;}
+.qx-innner{ width:1000px; margin:0 auto; text-align:left;} 
+.logo{ float:left;}
+.logo a{ padding-top:19px; display:inline-block;}
+.menu{ float:right; width:535px; text-align:left; margin-top:30px; }
+.menu ul li.hover{  background:url(../img/menu-bg.png) no-repeat left 1px;}
+.menu ul li.hover a{ background:url(../img/menu-bg.png) no-repeat right -32px; color:#fff }
+.menu ul li{float:left;} 
+.menu ul li a{ display:inline-block; height:32px; line-height:32px; vertical-align:middle;  padding:0 20px; color:#000; text-decoration:none;}
+.carouel-icon{ position:absolute; z-index:999;}
+.carouel-icon a{ background:#000; width:10px; height:10px;}
+
+/* focus */
+#focus{width:1600px;height:500px;overflow:hidden;position:relative;}
+#focus ul{height:500px;position:absolute;}
+#focus ul li{float:left;width:1600px;height:500px;overflow:hidden;position:relative;}
+#focus ul li div{position:absolute;overflow:hidden;}
+#focus .btnBg{position:absolute;width:53px;height:19px;left:773px;bottom:13px;background: url(../img/banner/btnbg.png) no-repeat;}
+#focus .btn{position:absolute;left:780px;bottom:13px;}
+#focus .btn span{display:inline-block;_display:inline;_zoom:1;_font-size:0;margin-left:5px;cursor:pointer;background: url(../img/banner/btn.png) no-repeat left top; width:11px; height:19px;}
+#focus .btn span.on{background: url(../img/banner/btn.png) no-repeat left bottom; }
+
+.list-anli{ margin-top:30px; text-align:center;}
+.list-anli-main{ margin-top:20px;}
+.list-anli-main ul li{ float:left; margin-right:70px;}
+.list-anli-main ul li.last{ margin-right:0;}
+
+.footer{ background:#333333; color:#fff; margin-top:20px; padding:15px 0;}
+.footer-menu a{ color:#fff; margin-right:20px; text-decoration:none; line-height:20px;}
+.footer p{ line-height:20px;}
+
